@@ -33,4 +33,6 @@ if not os.path.exists(DEFAULT_CACHE_DIR):
     os.makedirs(DEFAULT_CACHE_DIR)
 
 # MMPACKAGE_PATH = os.path.join(site.getsitepackages()[0], 'mmpackage.txt')
+import pkg_resources
+MMPACKAGE_PATH = os.path.join(pkg_resources.get_distribution('click').location, 'mmpackage.txt')
 MMPACKAGE_PATH = 'mmpackage.txt'
