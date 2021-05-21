@@ -45,8 +45,3 @@ gridsearch
 -----------
 .. automodule:: mim.commands.gridsearch
     :members:
-
-utils
------------
-.. automodule:: mim.utils
-    :members:
