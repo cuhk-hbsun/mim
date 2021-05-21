@@ -32,4 +32,5 @@ DEFAULT_CACHE_DIR = f'{os.environ["HOME"]}/.cache/mim'
 if not os.path.exists(DEFAULT_CACHE_DIR):
     os.makedirs(DEFAULT_CACHE_DIR)
 
-MMPACKAGE_PATH = os.path.join(site.getsitepackages()[0], 'mmpackage.txt')
+# MMPACKAGE_PATH = os.path.join(site.getsitepackages()[0], 'mmpackage.txt')
+MMPACKAGE_PATH = 'mmpackage.txt'
