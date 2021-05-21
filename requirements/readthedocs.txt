@@ -1,0 +1,7 @@
+click
+torch
+torchvision
+modelindex
+pandas
+requests
+tabulate
